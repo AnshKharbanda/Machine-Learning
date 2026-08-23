@@ -18,7 +18,8 @@ class Knn():
             raise ValueError("Input data and output data don't match number of samples")
         
     # def _distance(self,x1,x2):
-    #     return np.sum((x1-x2)**2)   as square can be compared instead of root, sqrt is unnecessary
+    #     return np.sum((x1-x2)**2)   
+    # as square can be compared instead of root, sqrt is unnecessary
         
     def predict(self,x_test):
         if self.x is None or self.y is None:
