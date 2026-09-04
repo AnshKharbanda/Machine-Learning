@@ -194,10 +194,6 @@ int main(){
         std::cout<<"}\n ";
     }
 
-// Centroid 1{8.6,8.8,}
-// Centroid 2{1.6,1.8,}
-// Centroid 3{15.6,1.8,}
-
     std::cout<<"\n";
 
     std::vector<double> testPoint = {2.0, 2.0};
@@ -205,6 +201,14 @@ int main(){
     int cluster = model.predict(testPoint);
 
     std::cout << "Point belongs to cluster: " << cluster << "\n";
+
+// Output Expected
+
+// Centroid 0{8.6,8.8,}
+// Centroid 1{1.6,1.8,}
+// Centroid 2{15.6,1.8,}
+ 
+// Point belongs to cluster: 1
 
     return 0;
 }
