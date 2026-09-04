@@ -8,10 +8,10 @@ Implementing machine learning algorithms from scratch using NumPy.
 - Multiple Linear Regression
 - Logistic Regression
 - KNN
+- KMeans
 
 ## Upcoming
 
 - Decision Trees
 - Naive Bayes
-- K-Means
 - Random Forest
